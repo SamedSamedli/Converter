@@ -1,0 +1,12 @@
+#money-images img{
+    height:300px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#money-images img.coin{
+    display: inline-block;
+    height:200px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}

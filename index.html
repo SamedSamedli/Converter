@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container py-5">
+        <h1 class="mb-4">USD TO AZN</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <input id="convert" type="text" class="form-control" placeholder="$$$ USD $$$">
+            </div>
+            <div class="col-md-8">
+                <button onclick="convert()" class="btn btn-success">Convert</button>
+                <span>Yazi ile goster ?</span> <input type="checkbox" id="withwords">
+            </div>
+        </div>
+        <p class="alert alert-success mt-4 d-none" id="result"></p>
+        <p class="alert alert-success mt-4 d-none" id="result-words"></p>
+        <div id="money-images"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
