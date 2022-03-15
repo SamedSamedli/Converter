@@ -1,3 +1,3 @@
 # Converter
-Convert
+https://converterr.herokuapp.com/
 Usd To Azn converter
