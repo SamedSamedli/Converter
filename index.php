@@ -12,7 +12,7 @@
 
 <body>
     <div class="container py-5">
-        <h1 class="mb-4">USD TO AZN</h1>
+        <h1 class="mb-4">USD TO AZN (test)</h1>
         <div class="row">
             <div class="col-md-4">
                 <input id="convert" type="text" class="form-control" placeholder="$$$ USD $$$">
